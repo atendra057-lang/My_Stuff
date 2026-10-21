@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: { card: "summary_large_image", title: "Atendra Maurya | Founder & Technology Entrepreneur", description: "Founder of CodeAux and builder of Intent." },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

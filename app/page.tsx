@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SiteHeader } from "@/components/site-header";
 import { SectionHeading } from "@/components/section-heading";
 import { WorkShowcase } from "@/components/work-showcase";
@@ -36,7 +37,7 @@ export default function Home() {
           </div>
           <div className="hero-photo-mobile" aria-hidden="true">
             <div className="hero-photo-frame">
-              <img src="/images/focused-work.png" alt="Atendra Maurya" />
+              <Image src="/images/focused-work.png" alt="Atendra Maurya" width={640} height={400} priority />
               <div className="hero-photo-corner" />
             </div>
           </div>
