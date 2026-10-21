@@ -1,0 +1,31 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Debug & temporary logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-visual.log
+dev-visual-error.log
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Backups & scratch
+*.bak
+scratch/
+
+# OS metadata
+.DS_Store
+Thumbs.db
